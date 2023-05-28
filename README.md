@@ -12,6 +12,10 @@ Before running the project locally, the dependencies need to be installed. You c
 npm i
 ```
 
+## .env required parameters
+
+This project is an interface designed to use Speech to text artificial intelligence in openai. Don't forget to put the API key in the .env file.
+
 ## Getting Started
 
 First, run the development server:
