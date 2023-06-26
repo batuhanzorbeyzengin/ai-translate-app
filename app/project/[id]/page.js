@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { Loading } from "@/components/Loading";
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
-import { DiffViewer } from "@/components/DiffViewer";
 
 export default function Project({ params }) {
   const [oldValue, setOldValue] = useState('');
@@ -54,7 +53,6 @@ export default function Project({ params }) {
       <div>
         <ReactQuill theme="snow" value={newValue} modules={modules} onChange={onTextChange} />
       </div>
-      <DiffViewer oldValue={oldValue} newValue={newValue} />
     </>
   )
 }
