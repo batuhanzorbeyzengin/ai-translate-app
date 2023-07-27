@@ -9,7 +9,7 @@ Before running this project, make sure you have [Node.js](https://nodejs.org/en/
 Before running the project locally, the dependencies need to be installed. You can do this by running the following command:
 
 ```bash
-npm i
+npm i -f
 ```
 
 ## .env required parameters
